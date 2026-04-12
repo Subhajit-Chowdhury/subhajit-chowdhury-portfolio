@@ -1,90 +1,320 @@
 # Data Engineering Portfolio | Subhajit Chowdhury
 
-This repository contains my professional portfolio, designed to showcase my experience in building scalable data pipelines and cloud-based architectures. The project integrates a conversational AI assistant to provide a more interactive way for recruiters and collaborators to explore my technical background.
+> An AI-powered interactive portfolio that allows users to explore my experience through conversation instead of static navigation.
 
-This project is also a submission for the **[GDG Solution Challenge](https://www.gdgcrcc.tech/solution-challenge)**, demonstrating how Large Language Models (LLMs) can be used to improve professional knowledge management and accessibility.
-
----
-
-## Project Overview
-
-The goal of this portfolio is to present my work as a Data Engineer in a clear, accessible, and modern format. Beyond a traditional static site, it includes an AI-driven assistant that can answer specific questions about my projects, skills, and work history at Tata Consultancy Services (TCS).
-
-### Key Features
-
-- **AI Assistant**: An integrated chatbot powered by **Google Gemini 1.5 Flash**. It uses my portfolio data as context to provide factual and concise answers to visitor inquiries.
-- **Performance-Focused UX**: Includes custom skeleton loaders to ensure a smooth visual experience while the application initializes.
-- **High-Contrast Design**: A focused dark theme built for readability and a professional aesthetic.
-- **Optimized Background**: A lightweight particle system implemented via HTML5 Canvas to maintain high performance across all devices.
-- **Responsive Design**: Fully optimized for mobile, tablet, and desktop viewing.
+🌐 **Live Demo**: https://subhajit-chowdhury-portfolio.vercel.app/
 
 ---
 
-## Technical Stack
+## 🖼️ Portfolio Preview
 
-- **AI Engine**: [Google Gemini API](https://aistudio.google.com/) (`@google/generative-ai`)
-- **Frontend**: [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
+<p align="center">
+  <img src="./assets/portfolio-preview.png" alt="Portfolio Preview" width="100%" />
+</p>
 
 ---
 
-## Setup and Installation
+## 🎥 Demo Preview
 
-### 1. Obtain a Gemini API Key
-To enable the AI chatbot, you will need a free API key from Google:
-1.  Go to [Google AI Studio](https://aistudio.google.com/).
-2.  Sign in with your Google account.
-3.  Click on **"Get API key"** in the sidebar.
-4.  Select **"Create API key in new project"** and copy the key.
+<p align="center">
+  <img src="./assets/demo.gif" alt="Demo Preview" width="100%" />
+</p>
 
-### 2. Local Development
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/Subhajit-Chowdhury/portfolio.git
-    cd portfolio
-    ```
-2.  **Install dependencies**:
-    ```bash
-    npm install
-    ```
-3.  **Configure environment variables**:
-    Create a `.env` file in the root directory and add your key:
-    ```env
-    VITE_GEMINI_API_KEY=your_api_key_here
-    ```
-4.  **Start the development server**:
-    ```bash
-    npm run dev
-    ```
-    The application will be available at `http://localhost:3000`.
+---
+
+## Overview
+
+This repository contains my personal portfolio built to present my work as a Data Engineer in a clear and accessible way.
+
+Instead of a traditional static portfolio, this project introduces an interactive AI assistant that allows users to explore my experience, projects, and skills through natural conversation.
+
+This project is developed as part of the **Google Developer Groups (GDG) Solution Challenge**
+🔗 https://www.gdgcrcc.tech/solution-challenge
+
+The focus of this submission is to explore how AI can improve the way professional information is accessed and understood.
+
+---
+
+## Context
+
+Most portfolios require manual navigation and scanning through multiple sections, which can make it difficult to quickly find relevant information.
+
+With this project, I aimed to:
+
+* Reduce friction in exploring my profile
+* Enable faster access to relevant details
+* Create a more interactive and user-friendly experience
+
+---
+
+## Approach
+
+The idea was to combine a modern frontend with an AI-powered assistant that can:
+
+* Understand user queries
+* Retrieve relevant portfolio information
+* Respond in a clear and concise way
+
+The focus was to keep the system simple, practical, and efficient without overengineering.
+
+---
+
+## Implementation
+
+### Frontend
+
+* React 19 + Vite
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* Lucide React
+
+### AI Integration
+
+* Google Gemini 1.5 Flash (`@google/generative-ai`)
+* Context-based prompt design using structured portfolio data
+* Controlled responses to keep outputs relevant and factual
+
+### Performance & UX
+
+* Skeleton loaders for smoother initial experience
+* Lightweight canvas-based background
+* High-contrast dark theme for readability
+* Fully responsive across devices
+
+---
+
+## Architecture Overview
+
+The application follows a lightweight client-side architecture with direct AI API integration.
+
+### High-Level Flow
+
+```bash id="kk6e6s"
+User (Browser)
+     ↓
+React Frontend
+     ↓
+Prompt Construction
+     ↓
+Google Gemini API
+     ↓
+Response Handling
+     ↓
+UI Rendering
+```
+
+---
+
+### Architecture Diagram
+
+```bash id="h4b6tt"
++-------------------+
+|     User (UI)     |
++-------------------+
+          |
+          v
++---------------------------+
+| React Application (Vite)  |
+| - Components              |
+| - State Management        |
+| - Chat Interface          |
++---------------------------+
+          |
+          v
++---------------------------+
+| Prompt Builder            |
+| - Inject Portfolio Data   |
+| - Structure Query         |
++---------------------------+
+          |
+          v
++---------------------------+
+| Google Gemini API         |
+| (gemini-1.5-flash)        |
++---------------------------+
+          |
+          v
++---------------------------+
+| Response Handler          |
+| - Parse Output            |
+| - Format Response         |
++---------------------------+
+          |
+          v
++---------------------------+
+| UI Rendering              |
+| - Chat Messages           |
+| - Loading States          |
++---------------------------+
+```
+
+---
+
+### Design Considerations
+
+* No backend required (keeps architecture simple)
+* Fast response time with direct API calls
+* Clear separation between UI, logic, and AI interaction
+* Focus on usability and performance
+
+---
+
+## Key Features
+
+* 🤖 AI-powered assistant for interactive exploration
+* 📊 Context-aware responses using portfolio data
+* ⚡ Smooth and optimized user experience
+* 📱 Fully responsive design
+* 🎯 Clean and minimal interface
+
+---
+
+## How the AI Assistant Works (Data Flow)
+
+The assistant is designed to answer questions based only on my portfolio data.
+
+### Step-by-Step Flow
+
+1. **User Input**
+   A question is asked through the chat interface
+
+2. **Context Injection**
+   Portfolio data (skills, experience, projects) is attached
+
+3. **Prompt Construction**
+   User query + structured context are combined
+
+4. **LLM Processing**
+   Request is sent to Gemini API
+
+5. **Response Handling**
+   Output is received and processed
+
+6. **UI Rendering**
+   Response is displayed in the chat
+
+---
+
+### Data Flow Diagram
+
+```bash id="sn9yqx"
+User Query
+   ↓
+React Chat UI
+   ↓
+Context Injection
+   ↓
+Prompt Builder
+   ↓
+Gemini API
+   ↓
+Response Processing
+   ↓
+Chat UI Rendering
+```
+
+---
+
+### Constraints
+
+* Responses are limited to provided portfolio context
+* No external retrieval systems (no RAG pipeline)
+* Focused on concise and relevant answers
+
+---
+
+### Why This Approach
+
+* Keeps the system simple and maintainable
+* Avoids unnecessary infrastructure
+* Demonstrates practical use of LLMs in a real application
+
+---
+
+## Impact
+
+* ⚡ Fast and responsive UI with optimized rendering
+* 🤖 AI responses generated in ~1–2 seconds (average)
+* 📱 Fully responsive across devices
+* 🎯 Improved accessibility of portfolio information through conversational interface
+
+---
+
+## Getting Started
+
+### 1. Clone the Repository
+
+```bash id="n7afiy"
+git clone https://github.com/Subhajit-Chowdhury/subhajit-chowdhury-portfolio.git
+cd subhajit-chowdhury-portfolio
+```
+
+### 2. Install Dependencies
+
+```bash id="ub9r6h"
+npm install
+```
+
+### 3. Setup Environment Variables
+
+Create a `.env` file:
+
+```env id="bf3nyw"
+VITE_GEMINI_API_KEY=your_api_key_here
+```
+
+Get your API key from: https://aistudio.google.com/
+
+---
+
+### 4. Run Locally
+
+```bash id="fw3o9x"
+npm run dev
+```
+
+App runs at:
+
+```id="0i1bcm"
+http://localhost:3000
+```
 
 ---
 
 ## Deployment
 
-### Vercel
-1.  Push your code to a GitHub repository.
-2.  Import the project into [Vercel](https://vercel.com/).
-3.  Add `VITE_GEMINI_API_KEY` to the **Environment Variables** in the project settings.
-4.  Deploy.
+This project is deployed using Vercel.
 
-### Netlify
-1.  Connect your GitHub repository to [Netlify](https://www.netlify.com/).
-2.  Go to **Site Settings > Environment Variables**.
-3.  Add `VITE_GEMINI_API_KEY`.
-4.  Trigger a new deployment.
+To deploy:
 
----
+1. Push code to GitHub
+2. Import into Vercel
+3. Add environment variable:
 
-## Contact Information
-
-- **LinkedIn**: [subhajit00100](https://www.linkedin.com/in/subhajit00100/)
-- **GitHub**: [Subhajit-Chowdhury](https://github.com/Subhajit-Chowdhury)
-- **Email**: [er.subhajitchowdhury@gmail.com](mailto:er.subhajitchowdhury@gmail.com)
+   * `VITE_GEMINI_API_KEY`
+4. Deploy
 
 ---
 
-*This project focuses on the practical application of AI to enhance professional communication and data accessibility.*
+## Outcome
+
+This project demonstrates:
+
+* Practical integration of LLMs into user-facing applications
+* A more interactive approach to professional portfolios
+* Focus on clean design, performance, and usability
+
+It reflects how I approach building solutions by combining **data, systems, and user experience** in a meaningful way.
+
+---
+
+## Contact
+
+* LinkedIn: https://www.linkedin.com/in/subhajit00100/
+* GitHub: https://github.com/Subhajit-Chowdhury
+* Email: [er.subhajitchowdhury@gmail.com](mailto:er.subhajitchowdhury@gmail.com)
+
+---
+
+*Built with a focus on clarity, usability, and practical application of AI.*
