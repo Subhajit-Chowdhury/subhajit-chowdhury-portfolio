@@ -1,0 +1,161 @@
+{
+  "basics": {
+    "name": "Subhajit Chowdhury",
+    "title": "Data Engineer",
+    "summary": "Cloud-focused Data Engineer with over 3.9 years of experience in designing, building and maintaining production-grade ETL/ELT data pipelines on AWS, spanning batch processing, near real-time event-driven ingestion, and scalable data lake architectures on Amazon S3 integrated with cloud data warehouses. Hands-on experience with AWS Glue (PySpark), EMR, Redshift, Athena, Step Functions, Lambda, DynamoDB, CloudWatch and Snowflake. Strong understanding of medallion architecture (Bronze/Silver/Gold), metadata-driven ingestion, and incremental data processing (CDC/SCD), along with SQL performance optimization. Experienced in managing the end-to-end data pipeline lifecycle, including ingestion, transformation, data quality, monitoring, and production support, with exposure to CI/CD-based deployments using Git and Jenkins. Open to cloud data engineering roles - remote or hybrid – where I can work on high-scale data systems and keep building depth across the modern data stack.",
+    "location": "Kolkata, West Bengal, India",
+    "email": "er.subhajitchowdhury@gmail.com",
+    "phone": "+91 7029860941",
+    "resume_pdf": "https://subhajit-chowdhury.github.io/Subhajit_Chowdhury_AWS_Data_Engineer_Resume.pdf"
+  },
+  "social_links": {
+    "linkedin": "https://www.linkedin.com/in/subhajit00100/",
+    "github": "https://github.com/Subhajit-Chowdhury",
+    "medium": "https://medium.com/@subhajitchowdhury",
+    "credly": "https://www.credly.com/users/subhajitch0wdhury"
+  },
+  "experience": [
+    {
+      "company": "Tata Consultancy Services",
+      "role": "System Engineer | Data Engineer",
+      "dates": "July 2024 - Present",
+      "location": "Kolkata, West Bengal, India",
+      "bullets": [
+        "Built and maintained 100+ production-grade, scalable AWS ETL/ELT pipelines using S3, Glue, EMR, Redshift, and Athena, processing 50–100 GB of data daily and supporting distributed data processing workloads.",
+        "Designed pipelines using a medallion architecture (Bronze/Silver/Gold layers) to structure data flow from raw ingestion to curated, analytics-ready datasets.",
+        "Developed a metadata-driven ingestion framework using AWS Glue Crawlers, enabling scalable ingestion and schema discovery across Parquet, JSON, and CSV data sources.",
+        "Orchestrated distributed ETL workflows using AWS Step Functions with retry logic, dependency handling, and failure recovery to ensure reliable production execution.",
+        "Implemented incremental data processing (insert/update/delete) using SQL and PySpark, aligned with dimensional modeling and star schema principles in Redshift.",
+        "Optimized query performance (~20–25% improvement) using partition pruning, predicate pushdown, and efficient joins in Redshift and Athena, reducing data scan overhead.",
+        "Applied cost-efficient data engineering practices, optimizing S3 storage design, ETL execution patterns, and query strategies to reduce compute and storage usage.",
+        "Monitored pipelines using AWS CloudWatch logs, metrics, and alerts, performing root cause analysis to detect and resolve production issues proactively.",
+        "Enabled CI/CD pipelines using Jenkins and Git, supporting version-controlled and reliable deployments across development, testing, and production environments.",
+        "Collaborated with analytics, QA, and BI teams to deliver reliable, well-modeled datasets aligned with business requirements in an Agile environment.",
+        "⭐ Impact: Delivered scalable, production-grade data pipelines ensuring consistent and reliable data availability for analytics and reporting. Improved system performance, stability, and cost efficiency through structured optimization, monitoring, and engineering best practices."
+      ]
+    },
+    {
+      "company": "Tata Consultancy Services",
+      "role": "Assistant System Engineer",
+      "dates": "July 2023 - June 2024",
+      "location": "Kolkata, West Bengal, India",
+      "bullets": [
+        "Contributed to building and maintaining a data warehouse layer using Informatica PowerCenter and IICS, supporting structured data integration across multiple systems.",
+        "Designed and developed 50+ ETL mappings and workflows, handling data extraction, transformation, and loading across relational datasets.",
+        "Processed GB to TB-scale data per pipeline, working within a large-scale data warehouse environment (TB–PB range) supporting enterprise analytics.",
+        "Analyzed source-to-target mappings (STTM) and implemented transformation logic to ensure accurate and consistent data movement.",
+        "Used Oracle SQL for data cleaning, filtering, and validation to maintain high data quality across staging and target layers.",
+        "Implemented incremental data processing (CDC/SCD concepts) to efficiently handle data updates and reduce full data reloads.",
+        "Performed SQL query optimization to improve ETL execution performance and reduce processing overhead.",
+        "Conducted unit testing, sanity testing, and system integration testing (SIT) to validate ETL workflows before deployment.",
+        "Performed root cause analysis on ETL failures and data discrepancies, resolving transformation logic and execution issues.",
+        "Collaborated with cross-functional teams to ensure data reliability, consistency, and alignment with business requirements.",
+        "⭐ Impact: Contributed to building a reliable and scalable data warehouse foundation through consistent ETL development and validation. Improved data quality and pipeline stability through structured testing, debugging, and optimization."
+      ]
+    },
+    {
+      "company": "Tata Consultancy Services",
+      "role": "Assistant System Engineer - Trainee",
+      "dates": "July 2022 - June 2023",
+      "location": "Kolkata, West Bengal, India",
+      "bullets": [
+        "Contributed to ETL migration and modernization, converting Informatica PowerCenter workflows into Informatica Intelligent Cloud Services (IICS).",
+        "Worked on 25+ ETL mappings and workflows, analyzing source-to-target mappings and recreating transformation logic in IICS.",
+        "Developed and tested ETL pipelines using Oracle SQL for data validation, ensuring data accuracy and consistency.",
+        "Supported the end-to-end ETL lifecycle, including development, testing, and deployment support across environments.",
+        "Performed root cause analysis on ETL job failures and data issues, identifying and resolving discrepancies in transformation logic and data conditions.",
+        "Documented solution design and ETL logic in Confluence for maintainability and knowledge sharing.",
+        "Worked in an Agile environment, using Jira for task tracking and GitHub for version control.",
+        "⭐ Impact: Supported successful ETL migration efforts while maintaining data integrity and consistency. Built strong foundations in ETL development, debugging, and data validation in real project environments."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Serverless-Batch-Analytics-ETL-Pipeline-on-AWS",
+      "tech_stack": ["Amazon S3", "AWS Glue", "PySpark", "AWS Glue Crawlers", "Amazon Athena", "Amazon QuickSight"],
+      "description": "Designed and implemented a fully serverless batch ETL pipeline on AWS to ingest, process, and structure analytical datasets for downstream reporting. Built a scalable data lake architecture with raw and curated layers (medallion-style). Enabled serverless, cost-efficient analytics by integrating the AWS Glue Data Catalog with Amazon Athena. Delivered end-to-end analytics by connecting Amazon Athena to Amazon QuickSight.",
+      "links": {
+        "github": "https://github.com/Subhajit-Chowdhury/Serverless-Batch-Analytics-ETL-Pipeline-on-AWS",
+        "external": ""
+      }
+    },
+    {
+      "title": "Near-Real-Time-Serverless-ELT-Pipeline-on-AWS-with-Snowflake",
+      "tech_stack": ["AWS EventBridge", "DynamoDB", "DynamoDB Streams", "AWS Lambda", "Amazon S3", "Snowflake", "Snowpipe"],
+      "description": "Built a near-real-time, event-driven ELT pipeline to ingest and process live API data with low latency. Solved challenges related to continuous ingestion and semi-structured JSON data handling. Implemented Snowflake Snowpipe for continuous, automated data ingestion from S3 into Snowflake tables. Applied ELT best practices by performing analytical transformations using Snowflake SQL, improving scalability and query performance.",
+      "links": {
+        "github": "https://github.com/Subhajit-Chowdhury/Near-Real-Time-Serverless-ELT-Pipeline-on-AWS-with-Snowflake",
+        "external": ""
+      }
+    }
+  ],
+  "skills": [
+    {
+      "category": "Cloud & Data Platforms",
+      "items": ["AWS (S3, Glue, Lambda, Step Functions, Athena, Redshift, DynamoDB, CloudWatch, IAM, EventBridge)", "Snowflake", "Databricks", "MS Fabric", "Azure"]
+    },
+    {
+      "category": "Data Engineering",
+      "items": ["ETL/ELT", "AWS Glue (PySpark)", "Informatica IICS", "Data Warehousing", "Data Lakes", "Medallion Architecture", "Incremental Loads", "CDC", "SCD"]
+    },
+    {
+      "category": "Programming & Querying",
+      "items": ["SQL (PostgreSQL, MySQL, SQL Server, Oracle)", "Python (Pandas, NumPy)", "PySpark", "Shell Scripting"]
+    },
+    {
+      "category": "Orchestration & DevOps",
+      "items": ["Step Functions", "Jenkins", "Airflow", "Git", "GitHub"]
+    },
+    {
+      "category": "Streaming & Messaging",
+      "items": ["Apache Kafka"]
+    },
+    {
+      "category": "Tools",
+      "items": ["Jira", "Confluence", "ServiceNow"]
+    },
+    {
+      "category": "Languages",
+      "items": ["English", "Hindi", "Bengali"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology (B.Tech), Computer Science and Engineering",
+      "institution": "Maulana Abul Kalam Azad University of Technology, West Bengal (MAKAUT)",
+      "dates": "2018 - 2022",
+      "details": "DGPA: 8.90"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "AWS",
+      "date": "July 2025 – July 2028",
+      "details": "Validation Number: a6447414ae25419cba12941481cd10a2",
+      "link": "https://www.credly.com/badges/ab2f0483-f256-4280-bbf3-70cdb978709c/public_url"
+    },
+    {
+      "name": "Academy Accreditation - Generative AI Fundamentals",
+      "issuer": "Databricks",
+      "date": "",
+      "details": "",
+      "link": "https://credentials.databricks.com/f24eca56-6070-4719-bf26-55944abdd3ac#acc.EyanhxeI"
+    },
+    {
+      "name": "Academy Accreditation - Databricks Fundamentals",
+      "issuer": "Databricks",
+      "date": "",
+      "details": "",
+      "link": "https://credentials.databricks.com/a1837196-382f-4824-a752-c2536b21ee4a#acc.kLaUCVlN"
+    }
+  ],
+  "achievements": [],
+  "awards": [],
+  "extra": [
+    "Strong focus on data reliability, scalability, and clean pipeline design",
+    "Comfortable working in Linux and Windows environments",
+    "Open to remote, hybrid, and international opportunities"
+  ]
+}
