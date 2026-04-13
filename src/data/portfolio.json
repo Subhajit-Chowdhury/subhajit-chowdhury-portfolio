@@ -21,7 +21,7 @@
       "dates": "July 2024 - Present",
       "location": "Kolkata, West Bengal, India",
       "bullets": [
-        "Built and maintained 100+ production-grade, scalable AWS ETL/ELT pipelines using S3, Glue, EMR, Redshift, and Athena, processing 50–100 GB of data daily and supporting distributed data processing workloads.",
+        "Built and maintained 150+ production-grade, scalable AWS ETL/ELT pipelines using S3, Glue, EMR, Redshift, and Athena, processing 50–100 GB of data daily and supporting distributed data processing workloads.",
         "Designed pipelines using a medallion architecture (Bronze/Silver/Gold layers) to structure data flow from raw ingestion to curated, analytics-ready datasets.",
         "Developed a metadata-driven ingestion framework using AWS Glue Crawlers, enabling scalable ingestion and schema discovery across Parquet, JSON, and CSV data sources.",
         "Orchestrated distributed ETL workflows using AWS Step Functions with retry logic, dependency handling, and failure recovery to ensure reliable production execution.",
