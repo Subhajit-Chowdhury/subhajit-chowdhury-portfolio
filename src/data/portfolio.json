@@ -2,7 +2,7 @@
   "basics": {
     "name": "Subhajit Chowdhury",
     "title": "Data Engineer",
-    "summary": "Data Engineer with ~4 years of production experience designing and owning end-to-end ETL/ELT pipelines on AWS. Expert in building Medallion-style data lakehouses, processing hundreds of GBs per run with periodic TB-scale historical refreshes. Proven track record in standardizing Delta Lake storage, executing on-premise to cloud migrations via AWS DMS, and optimizing query costs through Spark tuning and metadata-driven ingestion frameworks. Experienced in managing the end-to-end data pipeline lifecycle with exposure to CI/CD-based deployments using Git and Jenkins. Open to cloud data engineering roles - remote or hybrid – where I can work on high-scale data systems.",
+    "summary": "Data Engineer with ~4 years of production experience designing and owning end-to-end ETL/ELT pipelines on AWS, spanning batch processing, near real-time ingestion, and scalable data lake architectures. Expert in building Medallion-style data lakehouses, processing hundreds of GBs per run with periodic TB-scale historical refreshes. Hands-on experience with AWS Glue (PySpark), EMR, Redshift, Athena, Step Functions, Lambda, DynamoDB, CloudWatch and Snowflake. Proven track record in executing on-premise to cloud migrations, standardizing Delta Lake storage, and optimizing query costs through Spark tuning. Experienced in managing the end-to-end data pipeline lifecycle with CI/CD-based deployments (Git/Jenkins). Open to cloud data engineering roles - remote or hybrid – where I can work on high-scale data systems.",
     "location": "Kolkata, West Bengal, India",
     "email": "er.subhajitchowdhury@gmail.com",
     "phone": "+91 7029860941",
@@ -45,7 +45,7 @@
       "location": "Kolkata, West Bengal, India",
       "work_mode": "Hybrid",
       "bullets": [
-        "Architected and built a cloud data lakehouse on AWS, migrating and consolidating on-premises data sources into a scalable S3 architecture — decommissioning legacy managed hardware and MongoDB licenses to achieve £487K in documented annual savings.",
+        "Architected and built a cloud data lakehouse on AWS, migrating and consolidating on-premises data sources into a scalable S3 architecture, driving infrastructure cost optimizations of £487K annually.",
         "Established a medallion architecture (Bronze/Silver/Gold) with Delta Lake on S3 as the storage standard, using AWS DMS for ingestion — enabling ACID transactions, schema enforcement, and reliable upserts.",
         "Built end-to-end data transformation and processing jobs using AWS Glue (PySpark) and Lambda, orchestrated via AWS Step Functions with retry logic and failure handling for production reliability.",
         "Delivered data to 6 downstream consumer systems based on business requirements — Athena (SQL querying), QuickSight (dashboards), PostgreSQL (cost-efficient results), Redshift (analytical workloads), Snowflake (project-specific), and DynamoDB — ensuring each team received fit-for-purpose data.",
