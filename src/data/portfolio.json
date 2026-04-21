@@ -9,7 +9,7 @@
     "resume_pdf": "https://subhajit-chowdhury.github.io/Subhajit_Chowdhury_Data_Engineer_Resume.pdf"
   },
   "social_links": {
-    "linkedin": "https://www.linkedin.com/in/subhajit00100/",
+    "linkedin": "https://www.linkedin.com/in/subhajit-dataengineer/",
     "github": "https://github.com/Subhajit-Chowdhury",
     "medium": "https://medium.com/@subhajitchowdhury",
     "credly": "https://www.credly.com/users/subhajitch0wdhury"
@@ -17,56 +17,55 @@
   "experience": [
     {
       "company": "Tata Consultancy Services",
-      "role": "System Engineer | Data Engineer",
-      "dates": "July 2024 - Present",
+      "role": "Data Engineer | System Engineer",
+      "employment_type": "Full-time",
+      "dates": "Jul 2024 – Present",
+      "duration": "1 yr 10 mos",
       "location": "Kolkata, West Bengal, India",
+      "work_mode": "Hybrid",
       "bullets": [
-        "Built and maintained 150+ production-grade, scalable AWS ETL/ELT pipelines using S3, Glue, EMR, Redshift, and Athena, processing 50–100 GB of data daily and supporting distributed data processing workloads.",
-        "Designed pipelines using a medallion architecture (Bronze/Silver/Gold layers) to structure data flow from raw ingestion to curated, analytics-ready datasets.",
-        "Developed a metadata-driven ingestion framework using AWS Glue Crawlers, enabling scalable ingestion and schema discovery across Parquet, JSON, and CSV data sources.",
-        "Orchestrated distributed ETL workflows using AWS Step Functions with retry logic, dependency handling, and failure recovery to ensure reliable production execution.",
-        "Implemented incremental data processing (insert/update/delete) using SQL and PySpark, aligned with dimensional modeling and star schema principles in Redshift.",
-        "Optimized query performance (~20–25% improvement) using partition pruning, predicate pushdown, and efficient joins in Redshift and Athena, reducing data scan overhead.",
-        "Applied cost-efficient data engineering practices, optimizing S3 storage design, ETL execution patterns, and query strategies to reduce compute and storage usage.",
-        "Monitored pipelines using AWS CloudWatch logs, metrics, and alerts, performing root cause analysis to detect and resolve production issues proactively.",
-        "Enabled CI/CD pipelines using Jenkins and Git, supporting version-controlled and reliable deployments across development, testing, and production environments.",
-        "Collaborated with analytics, QA, and BI teams to deliver reliable, well-modeled datasets aligned with business requirements in an Agile environment.",
-        "⭐ Impact: Delivered scalable, production-grade data pipelines ensuring consistent and reliable data availability for analytics and reporting. Improved system performance, stability, and cost efficiency through structured optimization, monitoring, and engineering best practices."
+        "Built and maintained 150+ production-grade AWS ETL/ELT pipelines (S3, Glue, EMR, Redshift, Athena) on a medallion architecture (Bronze/Silver/Gold), handling data at MB, GB, and TB scale daily — delivering analytics-ready datasets to downstream BI and reporting consumers.",
+        "Standardized data lake storage on Delta Lake on S3 as the production standard, alongside Parquet and other formats — enabling ACID transactions, schema enforcement, and efficient upserts across the data lake.",
+        "Implemented a metadata-driven ingestion framework using AWS Glue Crawlers for automated schema discovery across Parquet, JSON, and CSV formats — reducing downstream data latency by ~30%.",
+        "Orchestrated batch ETL workflows using AWS Step Functions with retry logic and failure handling — reducing manual intervention and improving execution reliability in production.",
+        "Developed SQL and PySpark transformations with incremental load logic (insert/update/delete) aligned with star schema and dimensional modeling, keeping Redshift tables accurate and up to date.",
+        "Set up CI/CD pipelines using Jenkins and Git for version-controlled, repeatable deployments across dev, test, and production environments.",
+        "Optimized SQL query performance by ~20–25% through partition pruning, predicate pushdown, and efficient joins in Redshift and Athena — reducing unnecessary data scans.",
+        "Monitored production pipelines using CloudWatch logs, alerts, and dashboards — detecting and resolving issues before downstream impact.",
+        "Reduced compute and storage costs by optimizing S3 storage patterns, query structures, and scan footprints across Glue and Athena workloads.",
+        "Collaborated with analytics, QA, and BI teams across full Agile delivery cycles — sprint planning, backlog refinement, and production support."
       ]
     },
     {
       "company": "Tata Consultancy Services",
-      "role": "Assistant System Engineer",
-      "dates": "July 2023 - June 2024",
+      "role": "Data Engineer | Assistant System Engineer",
+      "employment_type": "Full-time",
+      "dates": "Jul 2023 – Jun 2024",
+      "duration": "1 yr",
       "location": "Kolkata, West Bengal, India",
+      "work_mode": "Hybrid",
       "bullets": [
-        "Contributed to building and maintaining a data warehouse layer using Informatica PowerCenter and IICS, supporting structured data integration across multiple systems.",
-        "Designed and developed 50+ ETL mappings and workflows, handling data extraction, transformation, and loading across relational datasets.",
-        "Processed GB to TB-scale data per pipeline, working within a large-scale data warehouse environment (TB–PB range) supporting enterprise analytics.",
-        "Analyzed source-to-target mappings (STTM) and implemented transformation logic to ensure accurate and consistent data movement.",
-        "Used Oracle SQL for data cleaning, filtering, and validation to maintain high data quality across staging and target layers.",
-        "Implemented incremental data processing (CDC/SCD concepts) to efficiently handle data updates and reduce full data reloads.",
-        "Performed SQL query optimization to improve ETL execution performance and reduce processing overhead.",
-        "Conducted unit testing, sanity testing, and system integration testing (SIT) to validate ETL workflows before deployment.",
-        "Performed root cause analysis on ETL failures and data discrepancies, resolving transformation logic and execution issues.",
-        "Collaborated with cross-functional teams to ensure data reliability, consistency, and alignment with business requirements.",
-        "⭐ Impact: Contributed to building a reliable and scalable data warehouse foundation through consistent ETL development and validation. Improved data quality and pipeline stability through structured testing, debugging, and optimization."
+        "Worked on building a cloud data lakehouse on AWS, migrating and consolidating data from on-premises sources into a scalable, multi-layer architecture on S3.",
+        "Data ingested via AWS DMS into S3, structured across Bronze, Silver, and Gold layers following medallion architecture, with Delta Lake as the storage standard — enabling ACID transactions, schema enforcement, and reliable upserts.",
+        "Built transformation and processing jobs using AWS Glue (PySpark) and Lambda, orchestrated via AWS Step Functions with retry logic and failure handling.",
+        "Delivered data to multiple downstream consumers based on business requirements — Athena for SQL-based querying, Amazon QuickSight for reporting and dashboards, PostgreSQL for cost-efficient query results via S3, Redshift for analytical workloads, Snowflake for specific project requirements, and DynamoDB where needed.",
+        "Worked within an Agile team across sprint planning, Jira-based task management, and collaboration with QA, analytics, and BI stakeholders."
       ]
     },
     {
       "company": "Tata Consultancy Services",
-      "role": "Assistant System Engineer - Trainee",
-      "dates": "July 2022 - June 2023",
+      "role": "Data Engineer | Assistant System Engineer - Trainee",
+      "employment_type": "Full-time",
+      "dates": "Jul 2022 – Jun 2023",
+      "duration": "1 yr",
       "location": "Kolkata, West Bengal, India",
+      "work_mode": "Hybrid",
       "bullets": [
-        "Contributed to ETL migration and modernization, converting Informatica PowerCenter workflows into Informatica Intelligent Cloud Services (IICS).",
-        "Worked on 25+ ETL mappings and workflows, analyzing source-to-target mappings and recreating transformation logic in IICS.",
-        "Developed and tested ETL pipelines using Oracle SQL for data validation, ensuring data accuracy and consistency.",
-        "Supported the end-to-end ETL lifecycle, including development, testing, and deployment support across environments.",
-        "Performed root cause analysis on ETL job failures and data issues, identifying and resolving discrepancies in transformation logic and data conditions.",
-        "Documented solution design and ETL logic in Confluence for maintainability and knowledge sharing.",
-        "Worked in an Agile environment, using Jira for task tracking and GitHub for version control.",
-        "⭐ Impact: Supported successful ETL migration efforts while maintaining data integrity and consistency. Built strong foundations in ETL development, debugging, and data validation in real project environments."
+        "Migrated ETL pipelines from Informatica PowerCenter to Informatica Intelligent Cloud Services (IICS), handling diverse input and output data types across source and target systems.",
+        "Developed ETL mappings end-to-end, built solution design documentation in Confluence, and used Oracle SQL for data extraction and validation.",
+        "Worked on migrating data from an on-premises Oracle database to Oracle Cloud Infrastructure (OCI), handling data integration and ensuring data consistency across source and target systems.",
+        "Developed and tested ETL pipelines in IICS, performed data cleaning using Oracle SQL, and conducted unit testing, sanity testing, and system integration testing (SIT).",
+        "Managed code using GitHub within an Agile team on Jira throughout both projects."
       ]
     }
   ],

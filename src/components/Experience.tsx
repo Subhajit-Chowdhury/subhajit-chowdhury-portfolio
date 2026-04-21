@@ -42,10 +42,16 @@ export default function Experience() {
                     <span className="flex items-center gap-1">
                       <Calendar className="w-4 h-4" />
                       {job.dates}
+                      {'duration' in job && (job as { duration?: string }).duration
+                        ? ` · ${(job as { duration?: string }).duration}`
+                        : ''}
                     </span>
                     <span className="flex items-center gap-1">
                       <MapPin className="w-4 h-4" />
                       {job.location}
+                      {'work_mode' in job && (job as { work_mode?: string }).work_mode
+                        ? ` · ${(job as { work_mode?: string }).work_mode}`
+                        : ''}
                     </span>
                   </div>
                 </div>
@@ -53,12 +59,11 @@ export default function Experience() {
                   {job.bullets.map((bullet, i) => {
                     // Highlight numbers/metrics but ignore numbers inside words (like S3)
                     const highlightedBullet = bullet.replace(/(~?\b\d+[-–]\d+\s*(?:GB|%)?|~?\b\d+\+?%?)/g, '<span class="text-blue-500 font-semibold">$&</span>');
-                    const isImpact = bullet.startsWith('⭐');
                     
                     return (
-                      <li key={i} className={`flex gap-2 ${isImpact ? 'mt-6 pt-4 border-t border-border' : ''}`}>
-                        {!isImpact && <span className="text-blue-400 mt-1.5">▹</span>}
-                        <span className={isImpact ? 'text-text font-medium' : ''} dangerouslySetInnerHTML={{ __html: highlightedBullet }} />
+                      <li key={i} className="flex gap-2">
+                        <span className="text-blue-400 mt-1.5">▹</span>
+                        <span dangerouslySetInnerHTML={{ __html: highlightedBullet }} />
                       </li>
                     );
                   })}
