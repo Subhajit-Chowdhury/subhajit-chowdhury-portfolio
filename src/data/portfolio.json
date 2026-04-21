@@ -24,16 +24,16 @@
       "location": "Kolkata, West Bengal, India",
       "work_mode": "Hybrid",
       "bullets": [
-        "Built and maintained 150+ production-grade AWS ETL/ELT pipelines (S3, Glue, EMR, Redshift, Athena) on a medallion architecture (Bronze/Silver/Gold), handling data at MB, GB, and TB scale daily — delivering analytics-ready datasets to downstream BI and reporting consumers.",
-        "Standardized data lake storage on Delta Lake on S3 as the production standard, alongside Parquet and other formats — enabling ACID transactions, schema enforcement, and efficient upserts across the data lake.",
-        "Implemented a metadata-driven ingestion framework using AWS Glue Crawlers for automated schema discovery across Parquet, JSON, and CSV formats — reducing downstream data latency by ~30%.",
-        "Orchestrated batch ETL workflows using AWS Step Functions with retry logic and failure handling — reducing manual intervention and improving execution reliability in production.",
-        "Developed SQL and PySpark transformations with incremental load logic (insert/update/delete) aligned with star schema and dimensional modeling, keeping Redshift tables accurate and up to date.",
-        "Set up CI/CD pipelines using Jenkins and Git for version-controlled, repeatable deployments across dev, test, and production environments.",
-        "Optimized SQL query performance by ~20–25% through partition pruning, predicate pushdown, and efficient joins in Redshift and Athena — reducing unnecessary data scans.",
-        "Monitored production pipelines using CloudWatch logs, alerts, and dashboards — detecting and resolving issues before downstream impact.",
+        "Built and maintained 150+ production-grade ETL/ELT pipelines on AWS (S3, Glue, EMR, Redshift, Athena) using medallion architecture (Bronze/Silver/Gold) to process data at MB–TB scale daily — delivering analytics-ready datasets to downstream BI and reporting consumers.",
+        "Standardized the data lake storage layer on Delta Lake on S3 as the production standard alongside Parquet — enabling ACID transactions, schema enforcement, and reliable upserts across the entire data lake.",
+        "Designed and implemented a metadata-driven ingestion framework using AWS Glue Crawlers for automated schema discovery across Parquet, JSON, and CSV sources — reducing downstream data latency by ~30%.",
+        "Orchestrated fault-tolerant batch ETL workflows using AWS Step Functions with retry logic and failure handling — reducing manual intervention and improving execution reliability in production.",
+        "Developed incremental load logic (insert/update/delete) using SQL and PySpark, aligned with star schema and dimensional modeling — keeping Redshift tables current and analytically consistent.",
+        "Established CI/CD pipelines using Jenkins and Git for version-controlled, repeatable deployments across dev, test, and production environments.",
+        "Optimized SQL query performance by ~20–25% through partition pruning, predicate pushdown, and efficient joins in Redshift and Athena — reducing unnecessary data scans and compute overhead.",
+        "Implemented proactive pipeline monitoring using CloudWatch logs, alerts, and dashboards — enabling early detection and resolution of production issues before downstream impact.",
         "Reduced compute and storage costs by optimizing S3 storage patterns, query structures, and scan footprints across Glue and Athena workloads.",
-        "Collaborated with analytics, QA, and BI teams across full Agile delivery cycles — sprint planning, backlog refinement, and production support."
+        "Partnered with analytics, QA, and BI teams across full Agile delivery cycles — sprint planning, backlog refinement, and production support — to ensure reliable, business-aligned data delivery."
       ]
     },
     {
@@ -45,11 +45,11 @@
       "location": "Kolkata, West Bengal, India",
       "work_mode": "Hybrid",
       "bullets": [
-        "Worked on building a cloud data lakehouse on AWS, migrating and consolidating data from on-premises sources into a scalable, multi-layer architecture on S3.",
-        "Data ingested via AWS DMS into S3, structured across Bronze, Silver, and Gold layers following medallion architecture, with Delta Lake as the storage standard — enabling ACID transactions, schema enforcement, and reliable upserts.",
-        "Built transformation and processing jobs using AWS Glue (PySpark) and Lambda, orchestrated via AWS Step Functions with retry logic and failure handling.",
-        "Delivered data to multiple downstream consumers based on business requirements — Athena for SQL-based querying, Amazon QuickSight for reporting and dashboards, PostgreSQL for cost-efficient query results via S3, Redshift for analytical workloads, Snowflake for specific project requirements, and DynamoDB where needed.",
-        "Worked within an Agile team across sprint planning, Jira-based task management, and collaboration with QA, analytics, and BI stakeholders."
+        "Architected and built a cloud data lakehouse on AWS, migrating and consolidating on-premises data sources into a scalable, multi-layer architecture on S3.",
+        "Established a medallion architecture (Bronze/Silver/Gold) with Delta Lake on S3 as the storage standard, using AWS DMS for ingestion — enabling ACID transactions, schema enforcement, and reliable upserts.",
+        "Built end-to-end data transformation and processing jobs using AWS Glue (PySpark) and Lambda, orchestrated via AWS Step Functions with retry logic and failure handling for production reliability.",
+        "Delivered data to 6 downstream consumer systems based on business requirements — Athena (SQL querying), QuickSight (dashboards), PostgreSQL (cost-efficient results), Redshift (analytical workloads), Snowflake (project-specific), and DynamoDB — ensuring each team received fit-for-purpose data.",
+        "Collaborated across an Agile team via sprint planning, Jira-based task management, and cross-functional coordination with QA, analytics, and BI stakeholders."
       ]
     },
     {
@@ -61,30 +61,39 @@
       "location": "Kolkata, West Bengal, India",
       "work_mode": "Hybrid",
       "bullets": [
-        "Migrated ETL pipelines from Informatica PowerCenter to Informatica Intelligent Cloud Services (IICS), handling diverse input and output data types across source and target systems.",
-        "Developed ETL mappings end-to-end, built solution design documentation in Confluence, and used Oracle SQL for data extraction and validation.",
-        "Worked on migrating data from an on-premises Oracle database to Oracle Cloud Infrastructure (OCI), handling data integration and ensuring data consistency across source and target systems.",
-        "Developed and tested ETL pipelines in IICS, performed data cleaning using Oracle SQL, and conducted unit testing, sanity testing, and system integration testing (SIT).",
-        "Managed code using GitHub within an Agile team on Jira throughout both projects."
+        "Migrated ETL pipelines from Informatica PowerCenter to Informatica Intelligent Cloud Services (IICS), handling diverse input and output data types across source and target systems to modernize the data integration layer.",
+        "Developed end-to-end ETL mappings, built solution design documentation in Confluence, and used Oracle SQL for data extraction and validation — ensuring data accuracy at source.",
+        "Executed an on-premises Oracle database migration to Oracle Cloud Infrastructure (OCI), handling end-to-end data integration and ensuring consistency between source and target systems throughout the migration lifecycle.",
+        "Built and validated ETL pipelines in IICS end-to-end — covering data cleaning via Oracle SQL, unit testing, sanity testing, and system integration testing (SIT).",
+        "Maintained version control and task tracking using GitHub and Jira across both projects within an Agile delivery model."
       ]
     }
   ],
   "projects": [
     {
-      "title": "Serverless-Batch-Analytics-ETL-Pipeline-on-AWS",
-      "tech_stack": ["Amazon S3", "AWS Glue", "PySpark", "AWS Glue Crawlers", "Amazon Athena", "Amazon QuickSight"],
-      "description": "Designed and implemented a fully serverless batch ETL pipeline on AWS to ingest, process, and structure analytical datasets for downstream reporting. Built a scalable data lake architecture with raw and curated layers (medallion-style). Enabled serverless, cost-efficient analytics by integrating the AWS Glue Data Catalog with Amazon Athena. Delivered end-to-end analytics by connecting Amazon Athena to Amazon QuickSight.",
+      "title": "Near-Real-Time Serverless ELT Pipeline on AWS with Snowflake",
+      "tech_stack": ["AWS EventBridge", "DynamoDB", "DynamoDB Streams", "AWS Lambda", "Amazon S3", "Snowflake", "Snowpipe"],
+      "bullets": [
+        "Engineered a near-real-time, event-driven ELT pipeline using AWS EventBridge, DynamoDB Streams, Lambda, S3, and Snowflake — ingesting and processing live API data end-to-end with low latency.",
+        "Solved continuous ingestion of semi-structured JSON by staging raw events in DynamoDB, transforming via Lambda, and landing processed records into S3 before Snowflake ingestion.",
+        "Automated continuous data loading from S3 into Snowflake using Snowpipe — eliminating batch job dependency and enabling near-real-time data availability.",
+        "Applied analytical transformations using Snowflake SQL to produce analytics-ready datasets across the AWS-native and Snowflake layers."
+      ],
       "links": {
-        "github": "https://github.com/Subhajit-Chowdhury/Serverless-Batch-Analytics-ETL-Pipeline-on-AWS",
+        "github": "https://github.com/Subhajit-Chowdhury/Near-Real-Time-Serverless-ELT-Pipeline-on-AWS-with-Snowflake",
         "external": ""
       }
     },
     {
-      "title": "Near-Real-Time-Serverless-ELT-Pipeline-on-AWS-with-Snowflake",
-      "tech_stack": ["AWS EventBridge", "DynamoDB", "DynamoDB Streams", "AWS Lambda", "Amazon S3", "Snowflake", "Snowpipe"],
-      "description": "Built a near-real-time, event-driven ELT pipeline to ingest and process live API data with low latency. Solved challenges related to continuous ingestion and semi-structured JSON data handling. Implemented Snowflake Snowpipe for continuous, automated data ingestion from S3 into Snowflake tables. Applied ELT best practices by performing analytical transformations using Snowflake SQL, improving scalability and query performance.",
+      "title": "Serverless Batch Analytics ETL Pipeline on AWS",
+      "tech_stack": ["Amazon S3", "AWS Glue", "PySpark", "AWS Glue Crawlers", "Amazon Athena", "Amazon QuickSight"],
+      "bullets": [
+        "Designed and built a fully serverless batch ETL pipeline using Amazon S3, AWS Glue (PySpark), and Glue Crawlers — ingesting, processing, and structuring analytical datasets for downstream reporting.",
+        "Architected a scalable data lake with raw and curated layers (medallion-style) — handling automated schema discovery, data cleansing, and batch transformations via Spark-based Glue jobs.",
+        "Integrated AWS Glue Data Catalog with Amazon Athena for serverless SQL-based querying on S3 — connected to Amazon QuickSight to deliver business-ready reporting and dashboards."
+      ],
       "links": {
-        "github": "https://github.com/Subhajit-Chowdhury/Near-Real-Time-Serverless-ELT-Pipeline-on-AWS-with-Snowflake",
+        "github": "https://github.com/Subhajit-Chowdhury/Serverless-Batch-Analytics-ETL-Pipeline-on-AWS",
         "external": ""
       }
     }
