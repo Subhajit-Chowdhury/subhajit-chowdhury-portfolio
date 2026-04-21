@@ -2,7 +2,7 @@
   "basics": {
     "name": "Subhajit Chowdhury",
     "title": "Data Engineer",
-    "summary": "Cloud-focused Data Engineer with over 3.9 years of experience in designing, building and maintaining production-grade ETL/ELT data pipelines on AWS, spanning batch processing, near real-time event-driven ingestion, and scalable data lake architectures on Amazon S3 integrated with cloud data warehouses. Hands-on experience with AWS Glue (PySpark), EMR, Redshift, Athena, Step Functions, Lambda, DynamoDB, CloudWatch and Snowflake. Strong understanding of medallion architecture (Bronze/Silver/Gold), metadata-driven ingestion, and incremental data processing (CDC/SCD), along with SQL performance optimization. Experienced in managing the end-to-end data pipeline lifecycle, including ingestion, transformation, data quality, monitoring, and production support, with exposure to CI/CD-based deployments using Git and Jenkins. Open to cloud data engineering roles - remote or hybrid – where I can work on high-scale data systems and keep building depth across the modern data stack.",
+    "summary": "Data Engineer with ~4 years of production experience designing and owning end-to-end ETL/ELT pipelines on AWS. Expert in building Medallion-style data lakehouses, processing hundreds of GBs per run with periodic TB-scale historical refreshes. Proven track record in standardizing Delta Lake storage, executing on-premise to cloud migrations via AWS DMS, and optimizing query costs through Spark tuning and metadata-driven ingestion frameworks. Experienced in managing the end-to-end data pipeline lifecycle with exposure to CI/CD-based deployments using Git and Jenkins. Open to cloud data engineering roles - remote or hybrid – where I can work on high-scale data systems.",
     "location": "Kolkata, West Bengal, India",
     "email": "er.subhajitchowdhury@gmail.com",
     "phone": "+91 7029860941",
@@ -24,7 +24,7 @@
       "location": "Kolkata, West Bengal, India",
       "work_mode": "Hybrid",
       "bullets": [
-        "Built and maintained 150+ production-grade ETL/ELT pipelines on AWS (S3, Glue, EMR, Redshift, Athena) using medallion architecture (Bronze/Silver/Gold) to process data at MB–TB scale daily — delivering analytics-ready datasets to downstream BI and reporting consumers.",
+        "Architected and maintained 150+ production-grade AWS ETL/ELT pipelines (S3, Glue, EMR, Redshift, Athena) across a medallion architecture (Bronze/Silver/Gold), processing hundreds of GBs daily with periodic TB-scale refreshes for downstream BI consumers.",
         "Standardized the data lake storage layer on Delta Lake on S3 as the production standard alongside Parquet — enabling ACID transactions, schema enforcement, and reliable upserts across the entire data lake.",
         "Designed and implemented a metadata-driven ingestion framework using AWS Glue Crawlers for automated schema discovery across Parquet, JSON, and CSV sources — reducing downstream data latency by ~30%.",
         "Orchestrated fault-tolerant batch ETL workflows using AWS Step Functions with retry logic and failure handling — reducing manual intervention and improving execution reliability in production.",
@@ -45,7 +45,7 @@
       "location": "Kolkata, West Bengal, India",
       "work_mode": "Hybrid",
       "bullets": [
-        "Architected and built a cloud data lakehouse on AWS, migrating and consolidating on-premises data sources into a scalable, multi-layer architecture on S3.",
+        "Architected and built a cloud data lakehouse on AWS, migrating and consolidating on-premises data sources into a scalable S3 architecture — decommissioning legacy managed hardware and MongoDB licenses to achieve £487K in documented annual savings.",
         "Established a medallion architecture (Bronze/Silver/Gold) with Delta Lake on S3 as the storage standard, using AWS DMS for ingestion — enabling ACID transactions, schema enforcement, and reliable upserts.",
         "Built end-to-end data transformation and processing jobs using AWS Glue (PySpark) and Lambda, orchestrated via AWS Step Functions with retry logic and failure handling for production reliability.",
         "Delivered data to 6 downstream consumer systems based on business requirements — Athena (SQL querying), QuickSight (dashboards), PostgreSQL (cost-efficient results), Redshift (analytical workloads), Snowflake (project-specific), and DynamoDB — ensuring each team received fit-for-purpose data.",
