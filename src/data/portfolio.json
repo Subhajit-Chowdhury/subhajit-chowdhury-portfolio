@@ -28,7 +28,7 @@
         "Standardized the data lake storage layer on Delta Lake on S3 as the production standard alongside Parquet — enabling ACID transactions, schema enforcement, and reliable upserts across the entire data lake.",
         "Designed and implemented a metadata-driven ingestion framework using AWS Glue Crawlers for automated schema discovery across Parquet, JSON, and CSV sources — reducing downstream data latency by ~30%.",
         "Orchestrated fault-tolerant batch ETL workflows using AWS Step Functions with retry logic and failure handling — reducing manual intervention and improving execution reliability in production.",
-        "Developed incremental load logic (insert/update/delete) using SQL and PySpark, aligned with star schema and dimensional modeling — keeping Redshift tables current and analytically consistent.",
+        "Developed incremental load logic (insert/update/delete) using SQL and PySpark, aligned with dimensional modeling — keeping Redshift tables current and analytically consistent.",
         "Established CI/CD pipelines using Jenkins and Git for version-controlled, repeatable deployments across dev, test, and production environments.",
         "Optimized SQL query performance by ~20–25% through partition pruning, predicate pushdown, and efficient joins in Redshift and Athena — reducing unnecessary data scans and compute overhead.",
         "Implemented proactive pipeline monitoring using CloudWatch logs, alerts, and dashboards — enabling early detection and resolution of production issues before downstream impact.",
