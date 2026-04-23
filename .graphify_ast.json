@@ -1,0 +1,1023 @@
+{
+  "nodes": [
+    {
+      "id": "vite_config_ts",
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\vite.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_tsx",
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_skeletonloader",
+      "label": "SkeletonLoader()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L19"
+    },
+    {
+      "id": "app_app",
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L52"
+    },
+    {
+      "id": "src_main_tsx",
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\main.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_aichat_tsx",
+      "label": "AIChat.tsx",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "aichat_scrolltobottom",
+      "label": "scrollToBottom()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L28"
+    },
+    {
+      "id": "aichat_handlefeedback",
+      "label": "handleFeedback()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L51"
+    },
+    {
+      "id": "aichat_startnewchat",
+      "label": "startNewChat()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L57"
+    },
+    {
+      "id": "aichat_handlesend",
+      "label": "handleSend()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L64"
+    },
+    {
+      "id": "src_components_animatedbackground_tsx",
+      "label": "AnimatedBackground.tsx",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AnimatedBackground.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "animatedbackground_animatedbackground",
+      "label": "AnimatedBackground()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AnimatedBackground.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_components_certifications_tsx",
+      "label": "Certifications.tsx",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Certifications.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_contact_tsx",
+      "label": "Contact.tsx",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Contact.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "contact_contact",
+      "label": "Contact()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Contact.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_components_education_tsx",
+      "label": "Education.tsx",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Education.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "education_education",
+      "label": "Education()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Education.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_components_experience_tsx",
+      "label": "Experience.tsx",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Experience.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "experience_experience",
+      "label": "Experience()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Experience.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_components_footer_tsx",
+      "label": "Footer.tsx",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Footer.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "footer_footer",
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Footer.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_components_hero_tsx",
+      "label": "Hero.tsx",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Hero.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "hero_hero",
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Hero.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_components_navbar_tsx",
+      "label": "Navbar.tsx",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Navbar.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "navbar_handlescroll",
+      "label": "handleScroll()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Navbar.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "navbar_scrolltotop",
+      "label": "scrollToTop()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Navbar.tsx",
+      "source_location": "L27"
+    },
+    {
+      "id": "src_components_projects_tsx",
+      "label": "Projects.tsx",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Projects.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_skills_tsx",
+      "label": "Skills.tsx",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Skills.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "skills_skills",
+      "label": "Skills()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Skills.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_components_splashscreen_tsx",
+      "label": "SplashScreen.tsx",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\SplashScreen.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "splashscreen_splashscreen",
+      "label": "SplashScreen()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\SplashScreen.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_context_themecontext_tsx",
+      "label": "ThemeContext.tsx",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\context\\ThemeContext.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "themecontext_themeprovider",
+      "label": "ThemeProvider()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\context\\ThemeContext.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "themecontext_usetheme",
+      "label": "useTheme()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\context\\ThemeContext.tsx",
+      "source_location": "L32"
+    },
+    {
+      "id": "src_lib_api_utils_ts",
+      "label": "api-utils.ts",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\lib\\api-utils.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "api_utils_getgeminiapikey",
+      "label": "getGeminiApiKey()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\lib\\api-utils.ts",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_lib_utils_ts",
+      "label": "utils.ts",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\lib\\utils.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "utils_cn",
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\lib\\utils.ts",
+      "source_location": "L4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "vite_config_ts",
+      "target": "vite",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\vite.config.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "vite_config_ts",
+      "target": "plugin_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\vite.config.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "vite_config_ts",
+      "target": "path",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\vite.config.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "vite_config_ts",
+      "target": "vite",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\vite.config.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_components_animatedbackground",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_components_navbar",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_components_hero",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_components_experience",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_components_projects",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_components_skills",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_components_education",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_components_certifications",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_components_contact",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_components_footer",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_components_aichat",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "app_skeletonloader",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_tsx",
+      "target": "app_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\App.tsx",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\main.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main_tsx",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\main.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main_tsx",
+      "target": "src_app_tsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\main.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_index_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\main.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main_tsx",
+      "target": "src_context_themecontext_tsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\main.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_aichat_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_aichat_tsx",
+      "target": "framer_motion",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_aichat_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_aichat_tsx",
+      "target": "genai",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_aichat_tsx",
+      "target": "react_markdown",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_aichat_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_data_portfolio_json",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_aichat_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_lib_api_utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_aichat_tsx",
+      "target": "aichat_scrolltobottom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_aichat_tsx",
+      "target": "aichat_handlefeedback",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_aichat_tsx",
+      "target": "aichat_startnewchat",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_aichat_tsx",
+      "target": "aichat_handlesend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_animatedbackground_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AnimatedBackground.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_animatedbackground_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_context_themecontext",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AnimatedBackground.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_animatedbackground_tsx",
+      "target": "animatedbackground_animatedbackground",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AnimatedBackground.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_certifications_tsx",
+      "target": "framer_motion",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Certifications.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_certifications_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Certifications.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_certifications_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_data_portfolio_json",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Certifications.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_contact_tsx",
+      "target": "framer_motion",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Contact.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_contact_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Contact.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_contact_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_data_portfolio_json",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Contact.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_contact_tsx",
+      "target": "contact_contact",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Contact.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_education_tsx",
+      "target": "framer_motion",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Education.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_education_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Education.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_education_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_data_portfolio_json",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Education.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_education_tsx",
+      "target": "education_education",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Education.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_experience_tsx",
+      "target": "framer_motion",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Experience.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_experience_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Experience.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_experience_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_data_portfolio_json",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Experience.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_experience_tsx",
+      "target": "experience_experience",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Experience.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_footer_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_data_portfolio_json",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Footer.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_footer_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Footer.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_footer_tsx",
+      "target": "footer_footer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Footer.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_hero_tsx",
+      "target": "framer_motion",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Hero.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_hero_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Hero.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_hero_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_data_portfolio_json",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Hero.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_hero_tsx",
+      "target": "hero_hero",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Hero.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Navbar.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar_tsx",
+      "target": "framer_motion",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Navbar.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Navbar.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_context_themecontext",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Navbar.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar_tsx",
+      "target": "navbar_handlescroll",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Navbar.tsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar_tsx",
+      "target": "navbar_scrolltotop",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Navbar.tsx",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_projects_tsx",
+      "target": "framer_motion",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Projects.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_projects_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Projects.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_projects_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_data_portfolio_json",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Projects.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_skills_tsx",
+      "target": "framer_motion",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Skills.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_skills_tsx",
+      "target": "h_win_11_my_work_my_projects_my_portfolio_update_subhajit_chowdhury_portfolio_src_data_portfolio_json",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Skills.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_skills_tsx",
+      "target": "skills_skills",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\Skills.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_splashscreen_tsx",
+      "target": "framer_motion",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\SplashScreen.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_splashscreen_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\SplashScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_splashscreen_tsx",
+      "target": "splashscreen_splashscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\SplashScreen.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_context_themecontext_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\context\\ThemeContext.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_context_themecontext_tsx",
+      "target": "themecontext_themeprovider",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\context\\ThemeContext.tsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_context_themecontext_tsx",
+      "target": "themecontext_usetheme",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\context\\ThemeContext.tsx",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_api_utils_ts",
+      "target": "api_utils_getgeminiapikey",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\lib\\api-utils.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_utils_ts",
+      "target": "clsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\lib\\utils.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_utils_ts",
+      "target": "tailwind_merge",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\lib\\utils.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_utils_ts",
+      "target": "utils_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\lib\\utils.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "aichat_handlesend",
+      "target": "api_utils_getgeminiapikey",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AIChat.tsx",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "animatedbackground_animatedbackground",
+      "target": "themecontext_usetheme",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "H:\\Win 11\\My Work\\My Projects\\My Portfolio\\Update\\subhajit-chowdhury-portfolio\\src\\components\\AnimatedBackground.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
