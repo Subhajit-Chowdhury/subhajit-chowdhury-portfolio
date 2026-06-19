@@ -4,27 +4,35 @@ export interface AssistantResponse {
   error?: string;
 }
 
-const ASSISTANT_API_URL = import.meta.env.VITE_ASSISTANT_API_URL || 'http://localhost:4000';
+// Use relative URL for API calls - works in both local dev and production
+const ASSISTANT_API_URL = '/api/assistant';
 
 export async function queryAssistant(question: string): Promise<AssistantResponse> {
-  const response = await fetch(`${ASSISTANT_API_URL}/api/assistant/query`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ question }),
-  });
+  try {
+    const response = await fetch(ASSISTANT_API_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ question }),
+    });
 
-  if (!response.ok) {
-    const payload = await response.json().catch(() => ({}));
+    if (!response.ok) {
+      const payload = await response.json().catch(() => ({}));
+      return {
+        answer:
+          payload?.error || 'The assistant API returned an error. Please check your network connection.',
+        error: payload?.error || 'Assistant API error',
+      };
+    }
+
+    return (await response.json()) as AssistantResponse;
+  } catch (error: any) {
     return {
-      answer:
-        payload?.error || 'The assistant API returned an error. Please check the backend or your network connection.',
-      error: payload?.error || 'Assistant API error',
+      answer: 'Unable to reach the assistant. Please ensure the backend is configured.',
+      error: error?.message || 'Network error',
     };
   }
-
-  return (await response.json()) as AssistantResponse;
 }
 
 export function getAssistantApiUrl(): string {
