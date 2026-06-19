@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Download, ChevronDown } from 'lucide-react';
 import portfolioData from '../data/portfolio.json';
+import { getExperienceYears } from '../lib/portfolio-utils';
 
 export default function Hero() {
   const { basics } = portfolioData;
@@ -19,11 +20,17 @@ export default function Hero() {
         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-text mb-4 tracking-tight whitespace-nowrap">
           {basics.name}
         </h1>
-        <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-text/50 mb-8 tracking-tight">
-          Data Engineer
+        <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-text/50 mb-6 tracking-tight">
+          {basics.title}
         </h2>
+        <div className="flex flex-wrap gap-3 mb-8 text-text/70 text-sm md:text-base">
+          <span className="px-3 py-1 rounded-full border border-blue-500/20 bg-blue-500/5">{getExperienceYears()}+ years experience</span>
+          <span className="px-3 py-1 rounded-full border border-blue-500/20 bg-blue-500/5">150+ production pipelines</span>
+          <span className="px-3 py-1 rounded-full border border-blue-500/20 bg-blue-500/5">GBP 1.5M+ infrastructure savings</span>
+          <span className="px-3 py-1 rounded-full border border-blue-500/20 bg-blue-500/5">Sub-minute data SLAs</span>
+        </div>
         <p className="text-text/60 text-lg md:text-xl max-w-2xl mb-10 leading-relaxed">
-          {basics.summary.split('. ').slice(0, 1).join('. ')}.
+          {basics.summary}
         </p>
 
         <div className="flex flex-wrap gap-4 mb-12">

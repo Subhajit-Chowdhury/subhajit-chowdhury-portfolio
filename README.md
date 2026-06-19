@@ -271,6 +271,12 @@ Get your API key from: https://aistudio.google.com/
 ### 4. Run Locally
 
 ```bash id="fw3o9x"
+npm run server
+```
+
+Start the assistant backend server locally. In a second terminal, run:
+
+```bash
 npm run dev
 ```
 
@@ -279,6 +285,8 @@ App runs at:
 ```id="0i1bcm"
 http://localhost:3000
 ```
+
+The backend listens at `http://localhost:4000` by default. If you need a different URL, set `VITE_ASSISTANT_API_URL` in your `.env` file.
 
 ---
 

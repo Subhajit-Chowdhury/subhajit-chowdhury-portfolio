@@ -1,10 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageSquare, X, Send, Loader2, Bot, ThumbsUp, ThumbsDown, RotateCcw } from 'lucide-react';
-import { GoogleGenAI, ThinkingLevel } from "@google/genai";
+import { MessageSquare, X, Send, Bot, ThumbsUp, ThumbsDown, RotateCcw } from 'lucide-react';
 import Markdown from 'react-markdown';
-import portfolioData from '../data/portfolio.json';
-import { getGeminiApiKey } from '../lib/api-utils';
+import { queryAssistant } from '../lib/assistant-api';
 
 interface Message {
   role: 'user' | 'assistant';
@@ -14,7 +12,7 @@ interface Message {
 
 export default function AIChat() {
   const [isOpen, setIsOpen] = useState(false);
-  const [apiKeyError, setApiKeyError] = useState<string | null>(null);
+  const [apiError, setApiError] = useState<string | null>(null);
   const initialMessage: Message = { role: 'assistant', content: "Hi! I'm Subhajit's AI assistant. Ask me anything about his experience, projects, or skills!" };
   const [messages, setMessages] = useState<Message[]>(() => {
     const saved = localStorage.getItem('portfolio_chat_history');
@@ -35,13 +33,6 @@ export default function AIChat() {
   }, [messages]);
 
   useEffect(() => {
-    const key = getGeminiApiKey();
-    if (!key) {
-      setApiKeyError("Gemini API Key is missing. Please add VITE_GEMINI_API_KEY to your Secrets in Settings.");
-    } else {
-      setApiKeyError(null);
-    }
-
     if (isOpen) {
       // Start a fresh visual session every time the chat is opened
       setSessionStartIndex(messages.length);
@@ -70,84 +61,29 @@ export default function AIChat() {
     setIsLoading(true);
 
     try {
-      const apiKey = getGeminiApiKey();
-      if (!apiKey) {
-        throw new Error("API_KEY_MISSING");
+      const response = await queryAssistant(userMessage);
+
+      if (response.error) {
+        throw new Error(response.error);
       }
 
-      const ai = new GoogleGenAI({ apiKey });
-      
-      // Prepare history for @google/genai format
-      // Note: History must start with user message if provided, 
-      // but generateContent can also take a simple prompt or array of contents.
-      const history = messages.slice(1).map(m => ({
-        role: m.role === 'user' ? 'user' : 'model',
-        parts: [{ text: m.content }]
-      }));
-
-      const response = await ai.models.generateContent({
-        model: "gemini-3-flash-preview",
-        contents: [
-          ...history,
-          { role: 'user', parts: [{ text: userMessage }] }
-        ],
-        config: {
-          thinkingConfig: { thinkingLevel: ThinkingLevel.LOW },
-          systemInstruction: `
-            You are "Subhajit's Portfolio Assistant", a professional, proactive, and concise AI representative for Subhajit Chowdhury, a Data Engineer.
-            
-            STRICT ADHERENCE:
-            1. Provide 100% accurate information based ONLY on the provided Data Source.
-            2. Do NOT hallucinate or invent details. If information is missing, state it clearly and offer to connect with Subhajit.
-            3. Responses must be super fast and precise.
-            
-            CONTEXT:
-            Subhajit has 3.9+ years of experience, primarily at TCS, specializing in AWS Data Engineering.
-            
-            DATA SOURCE:
-            ${JSON.stringify(portfolioData, null, 2)}
-            
-            GUIDELINES:
-            1. Be professional, direct, and helpful.
-            2. Use Markdown for structure (bolding, lists).
-            3. Only use information from the Data Source.
-            4. If unknown, provide Subhajit's email: ${portfolioData.basics.email}.
-            5. Keep responses short (1-2 paragraphs).
-            6. PROACTIVE GUIDANCE: At the end of your response, don't just list topics. Instead, ask a clarifying question or offer a specific, relevant highlight from the portfolio to pique interest. For example: "I noticed you're interested in ETL; would you like to hear how I optimized a pipeline to handle 500GB of daily data?" or "Since you asked about AWS, should we dive into my experience with Redshift or Glue first?"
-          `
-        }
-      });
-
-      const aiResponse = response.text;
-      
-      if (!aiResponse) {
-        throw new Error("EMPTY_RESPONSE");
-      }
-
-      setMessages(prev => [...prev, { role: 'assistant', content: aiResponse }]);
-      setApiKeyError(null); // Clear any previous errors on success
+      setMessages(prev => [...prev, { role: 'assistant', content: response.answer }]);
+      setApiError(null);
     } catch (error: any) {
-      console.error("AI Chat Full Error:", error);
-      
-      let errorMessage = "I'm having trouble connecting to the AI service. Please check your internet connection and try again.";
-      
-      if (error.message === "API_KEY_MISSING") {
-        const msg = "Gemini API Key is missing. Please add VITE_GEMINI_API_KEY to your Secrets in Settings.";
-        setApiKeyError(msg);
-        errorMessage = msg;
-      } else if (error.message?.includes("API key not valid") || error.status === 403) {
-        const msg = "The API key provided is not valid. Please check your Google AI Studio settings and ensure the key is correct.";
-        setApiKeyError(msg);
-        errorMessage = msg;
-      } else if (error.message?.includes("quota") || error.status === 429) {
-        errorMessage = "API quota exceeded. I've had too many conversations recently! Please try again in a few minutes.";
-      } else if (error.message?.includes("404")) {
-        errorMessage = "The AI model is currently unavailable. This might be a temporary service issue. Please try again later.";
-      } else if (!navigator.onLine) {
-        errorMessage = "You appear to be offline. Please check your network connection and try again.";
+      console.error('AI Chat Full Error:', error);
+
+      let errorMessage = 'I am having trouble connecting to the assistant backend. Please ensure the local assistant server is running and try again.';
+
+      if (error.message?.includes('Assistant API error')) {
+        errorMessage = 'The assistant backend returned an error. Please check the local server logs or environment configuration.';
+      } else if (error.message?.includes('Failed to fetch') || error.message?.includes('NetworkError')) {
+        errorMessage = 'Unable to reach the assistant backend. Check that the server is running at the configured API URL.';
+      } else if (error.message?.includes('API key is not set')) {
+        errorMessage = 'Assistant backend is misconfigured. Please set GEMINI_API_KEY in the server environment.';
       }
-      
+
       setMessages(prev => [...prev, { role: 'assistant', content: errorMessage }]);
+      setApiError(error.message ?? 'Assistant error');
     } finally {
       setIsLoading(false);
     }
@@ -185,8 +121,8 @@ export default function AIChat() {
                 <div>
                   <h3 className="font-bold text-text text-sm">Portfolio Assistant</h3>
                   <div className="flex items-center gap-1">
-                    <span className={`w-2 h-2 rounded-full animate-pulse ${apiKeyError ? 'bg-red-500' : 'bg-emerald-500'}`}></span>
-                    <span className="text-[10px] text-text/40">{apiKeyError ? 'Configuration Error' : 'Online'}</span>
+                    <span className={`w-2 h-2 rounded-full animate-pulse ${apiError ? 'bg-red-500' : 'bg-emerald-500'}`}></span>
+                    <span className="text-[10px] text-text/40">{apiError ? 'Configuration Error' : 'Online'}</span>
                   </div>
                 </div>
               </div>
@@ -208,10 +144,10 @@ export default function AIChat() {
             </div>
 
             {/* API Key Error Banner */}
-            {apiKeyError && (
+            {apiError && (
               <div className="px-4 py-2 bg-red-500/10 border-b border-red-500/20">
                 <p className="text-[11px] text-red-400 leading-tight">
-                  {apiKeyError}
+                  {apiError}
                 </p>
               </div>
             )}

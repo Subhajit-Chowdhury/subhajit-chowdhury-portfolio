@@ -6,5 +6,6 @@ coverage/
 *.log
 .env*
 !.env.example
+server/assistant-store.json
 # Added by code-review-graph
 .code-review-graph/
