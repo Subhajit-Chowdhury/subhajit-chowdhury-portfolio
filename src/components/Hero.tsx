@@ -6,6 +6,11 @@ import { getExperienceYears } from '../lib/portfolio-utils';
 export default function Hero() {
   const { basics } = portfolioData;
 
+  // Prefer the summary's stated years (e.g. "~4 years") for display consistency,
+  // otherwise fall back to the computed value from experience records.
+  const summaryYearsMatch = String(basics?.summary || '').match(/(~?)\s*(\d+)\s*years?/i);
+  const displayYears = summaryYearsMatch ? Number(summaryYearsMatch[2]) : getExperienceYears();
+
   return (
     <section className="min-h-screen flex flex-col justify-center relative px-6 md:px-12 lg:px-24 pt-20">
       <motion.div
@@ -24,7 +29,7 @@ export default function Hero() {
           {basics.title}
         </h2>
         <div className="flex flex-wrap gap-3 mb-8 text-text/70 text-sm md:text-base">
-          <span className="px-3 py-1 rounded-full border border-blue-500/20 bg-blue-500/5">{getExperienceYears()}+ years experience</span>
+          <span className="px-3 py-1 rounded-full border border-blue-500/20 bg-blue-500/5">{displayYears}+ years experience</span>
           <span className="px-3 py-1 rounded-full border border-blue-500/20 bg-blue-500/5">150+ production pipelines</span>
           <span className="px-3 py-1 rounded-full border border-blue-500/20 bg-blue-500/5">GBP 1.5M+ infrastructure savings</span>
           <span className="px-3 py-1 rounded-full border border-blue-500/20 bg-blue-500/5">Sub-minute data SLAs</span>
