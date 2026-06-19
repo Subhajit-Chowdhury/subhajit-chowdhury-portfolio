@@ -24,9 +24,9 @@ export default function Navbar() {
     { name: 'Certifications', href: '#certifications' },
   ];
 
-  const scrollToTop = (e: React.MouseEvent) => {
+  const reloadPage = (e: React.MouseEvent) => {
     e.preventDefault();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.location.reload();
   };
 
   return (
@@ -39,8 +39,8 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
         <motion.a
-          href="#"
-          onClick={scrollToTop}
+          href="/"
+          onClick={reloadPage}
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
