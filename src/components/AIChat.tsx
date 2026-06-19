@@ -36,6 +36,25 @@ export default function AIChat() {
     if (isOpen) {
       // Start a fresh visual session every time the chat is opened
       setSessionStartIndex(messages.length);
+
+      // Check assistant configuration/status in production
+      (async () => {
+        try {
+          const resp = await fetch('/api/status');
+          if (!resp.ok) {
+            setApiError('Unable to check assistant status.');
+            return;
+          }
+          const data = await resp.json();
+          if (!data?.ready) {
+            setApiError(data?.message || 'Assistant is not configured.');
+          } else {
+            setApiError(null);
+          }
+        } catch (err) {
+          setApiError('Unable to reach the assistant backend.');
+        }
+      })();
     }
   }, [isOpen]);
 
