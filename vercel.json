@@ -4,6 +4,14 @@
     "api/assistant.ts": {
       "memory": 3008,
       "maxDuration": 30
+    },
+    "api/status.ts": {
+      "memory": 512,
+      "maxDuration": 5
+    },
+    "api/health.ts": {
+      "memory": 512,
+      "maxDuration": 5
     }
   }
 }
